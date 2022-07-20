@@ -1,0 +1,81 @@
+[gd_scene format=2]
+
+[node name="CpuStatsContainer" type="VFlowContainer"]
+margin_right = 960.0
+margin_bottom = 266.0
+size_flags_vertical = 3
+custom_constants/hseparation = 8
+
+[node name="CpuName" type="HBoxContainer" parent="."]
+margin_right = 74.0
+margin_bottom = 14.0
+
+[node name="CpuLabel" type="Label" parent="CpuName"]
+margin_right = 30.0
+margin_bottom = 14.0
+text = "CPU:"
+
+[node name="CpuStatName" type="Label" parent="CpuName"]
+margin_left = 34.0
+margin_right = 34.0
+margin_bottom = 14.0
+
+[node name="Separator" type="HSeparator" parent="."]
+margin_top = 18.0
+margin_right = 74.0
+margin_bottom = 22.0
+
+[node name="CpuCores" type="HBoxContainer" parent="."]
+margin_top = 26.0
+margin_right = 74.0
+margin_bottom = 40.0
+
+[node name="CpuLabel" type="Label" parent="CpuCores"]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Cores:"
+
+[node name="CpuStatCores" type="Label" parent="CpuCores"]
+margin_left = 44.0
+margin_right = 44.0
+margin_bottom = 14.0
+
+[node name="Separator2" type="HSeparator" parent="."]
+margin_top = 44.0
+margin_right = 74.0
+margin_bottom = 48.0
+
+[node name="CpuThreads" type="HBoxContainer" parent="."]
+margin_top = 52.0
+margin_right = 74.0
+margin_bottom = 66.0
+
+[node name="CpuLabel" type="Label" parent="CpuThreads"]
+margin_right = 54.0
+margin_bottom = 14.0
+text = "Threads:"
+
+[node name="CpuStatThreads" type="Label" parent="CpuThreads"]
+margin_left = 58.0
+margin_right = 58.0
+margin_bottom = 14.0
+
+[node name="Separator3" type="HSeparator" parent="."]
+margin_top = 70.0
+margin_right = 74.0
+margin_bottom = 74.0
+
+[node name="CpuFreq" type="HBoxContainer" parent="."]
+margin_top = 78.0
+margin_right = 74.0
+margin_bottom = 92.0
+
+[node name="CpuLabel4" type="Label" parent="CpuFreq"]
+margin_right = 70.0
+margin_bottom = 14.0
+text = "Frequency:"
+
+[node name="CpuStatFreq" type="Label" parent="CpuFreq"]
+margin_left = 74.0
+margin_right = 74.0
+margin_bottom = 14.0

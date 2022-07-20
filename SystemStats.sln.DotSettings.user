@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FSystemStats_002Flib_002FMono_002EPosix_002ENETStandard_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;PhysicalFolder Path="/home/lewiji/.nuget/packages/mono.posix.netstandard/1.0.0" Loaded="True" /&gt;
+  &lt;Assembly Path="/home/lewiji/.nuget/packages/mono.posix.netstandard/1.0.0/ref/netstandard2.0/Mono.Posix.NETStandard.dll" /&gt;
+  &lt;Assembly Path="/home/lewiji/.nuget/packages/librehardwaremonitorlib/0.9.0/lib/netstandard2.0/LibreHardwareMonitorLib.dll" /&gt;
+  &lt;Assembly Path="/usr/lib/mono/4.5/Microsoft.Build.dll" /&gt;
+  &lt;Assembly Path="/home/lewiji/godot/Godot_v3.5-rc6_mono_x11_64/GodotSharp/Mono/lib/mono/4.5/System.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Subhardware/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

@@ -1,0 +1,82 @@
+[gd_scene format=2]
+
+[node name="MemStatsContainer" type="VFlowContainer"]
+margin_top = 270.0
+margin_right = 960.0
+margin_bottom = 536.0
+size_flags_vertical = 3
+custom_constants/hseparation = 8
+
+[node name="MemName" type="HBoxContainer" parent="."]
+margin_right = 66.0
+margin_bottom = 14.0
+
+[node name="Label" type="Label" parent="MemName"]
+margin_right = 57.0
+margin_bottom = 14.0
+text = "Memory:"
+
+[node name="Stat" type="Label" parent="MemName"]
+margin_left = 61.0
+margin_right = 61.0
+margin_bottom = 14.0
+
+[node name="Separator" type="HSeparator" parent="."]
+margin_top = 18.0
+margin_right = 66.0
+margin_bottom = 22.0
+
+[node name="MemTotal" type="HBoxContainer" parent="."]
+margin_top = 26.0
+margin_right = 66.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="MemTotal"]
+margin_right = 35.0
+margin_bottom = 14.0
+text = "Total:"
+
+[node name="Stat" type="Label" parent="MemTotal"]
+margin_left = 39.0
+margin_right = 39.0
+margin_bottom = 14.0
+
+[node name="Separator2" type="HSeparator" parent="."]
+margin_top = 44.0
+margin_right = 66.0
+margin_bottom = 48.0
+
+[node name="MemUsed" type="HBoxContainer" parent="."]
+margin_top = 52.0
+margin_right = 66.0
+margin_bottom = 66.0
+
+[node name="Label" type="Label" parent="MemUsed"]
+margin_right = 37.0
+margin_bottom = 14.0
+text = "Used:"
+
+[node name="Stat" type="Label" parent="MemUsed"]
+margin_left = 41.0
+margin_right = 41.0
+margin_bottom = 14.0
+
+[node name="Separator3" type="HSeparator" parent="."]
+margin_top = 70.0
+margin_right = 66.0
+margin_bottom = 74.0
+
+[node name="MemAvailable" type="HBoxContainer" parent="."]
+margin_top = 78.0
+margin_right = 66.0
+margin_bottom = 92.0
+
+[node name="Label" type="Label" parent="MemAvailable"]
+margin_right = 62.0
+margin_bottom = 14.0
+text = "Available:"
+
+[node name="Stat" type="Label" parent="MemAvailable"]
+margin_left = 66.0
+margin_right = 66.0
+margin_bottom = 14.0

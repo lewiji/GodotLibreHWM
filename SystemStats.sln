@@ -1,0 +1,15 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemStats", "SystemStats.csproj", "{151B79B1-C73C-42B4-82E2-C614784265FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ExportRelease|x86-64 = ExportRelease|x86-64
+		ExportDebug|x86-64 = ExportDebug|x86-64
+		Debug|x86-64 = Debug|x86-64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151B79B1-C73C-42B4-82E2-C614784265FB}.Debug|x86-64.ActiveCfg = Debug|Any CPU
+		{151B79B1-C73C-42B4-82E2-C614784265FB}.Debug|x86-64.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
